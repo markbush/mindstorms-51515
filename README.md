@@ -10,6 +10,10 @@ Using the code and features here will **not** require any changes to your hub fi
 
 In order to discover how to use more of the functionality of the Mindstorms hub, we need to be able to access the files on it.  Information on how to do that is in the [extracting](extracting) directory.
 
+## Python script initialisation
+
+We have seen that we need to call the `setup` function.  The [setup](setup) directory will explore how to determine the correct way to do that.
+
 ## References
 
 The information gathered here has been greatly helped by information provided by the following:
