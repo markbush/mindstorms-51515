@@ -1,4 +1,4 @@
-# Initial script setup
+# Initial Script Setup
 
 We have seen that the signature of `setup` is:
 

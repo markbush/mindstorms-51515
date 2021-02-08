@@ -14,6 +14,13 @@ In order to discover how to use more of the functionality of the Mindstorms hub,
 
 We have seen that we need to call the `setup` function.  The [setup](setup) directory will explore how to determine the correct way to do that.
 
+## Scratch blocks
+
+Now that we can extract code from the hub and see how to set up the application environment, we can start looking at how each of the Scratch blocks is implemented.
+
+* [event blocks](blocks/event) - how to start running code based on an event occurring
+* [control blocks](blocks/control) - blocks that determine the flow of control in an application
+
 ## References
 
 The information gathered here has been greatly helped by information provided by the following:
