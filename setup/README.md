@@ -27,7 +27,7 @@ import system
 from runtime import VirtualMachine
 from runtime.extensions import SoundExtension
 
-def run(vm, stack):
+async def run(vm, stack):
     print('Hello')
     await vm.extensions["sound"].play("Cat Meow 1", vm.store.sound_volume(), vm.store.sound_pitch(), vm.store.sound_pan(), wait=True)
     print('Done')
@@ -86,7 +86,7 @@ from runtime import VirtualMachine
 from protocol.ujsonrpc import JSONRPC
 from runtime.extensions import SoundExtension
 
-def run(vm, stack):
+async def run(vm, stack):
     print('Hello')
     await vm.extensions["sound"].play("Cat Meow 1", vm.store.sound_volume(), vm.store.sound_pitch(), vm.store.sound_pan(), wait=True)
     print('Done')
