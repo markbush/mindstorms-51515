@@ -8,7 +8,7 @@ Using the code and features here will **not** require any changes to your hub fi
 
 ## Extracting files from the hub
 
-In order to discover how to use more of the functionality of the Mindstorms hub, we need to be able to access the files on it.  Information on how to do that is in the [extracting](extracting) directory.
+In order to discover how to use more of the functionality of the Mindstorms hub, we need to be able to access the files on it.  Information on how to do that is in the [extracting](extracting/README.md) directory.
 
 ## Python script initialisation
 
@@ -18,8 +18,8 @@ We have seen that we need to call the `setup` function.  The [setup](setup) dire
 
 Now that we can extract code from the hub and see how to set up the application environment, we can start looking at how each of the Scratch blocks is implemented.
 
-* [event blocks](blocks/event) - how to start running code based on an event occurring
-* [control blocks](blocks/control) - blocks that determine the flow of control in an application
+* [event blocks](blocks/event/README.md) - how to start running code based on an event occurring
+* [control blocks](blocks/control/README.md) - blocks that determine the flow of control in an application
 
 ## References
 

@@ -33,7 +33,13 @@ def setup(rpc, system, stop):
 
 Here we can see how conditions are specified for stacks to run.  The virtual machine will monitor the condition for changes.  If the condition is satisfied, the corresponding stack will start running.  Stack conditions must return a boolean which indicates if the stack can run.
 
-The first argument to `get_sensor_value()` is the hub port.  In this case, the colour sensor is connected to port "A".  The other parameters are always (0, -1, (61,)) for the colour sensor.
+The first argument to `get_sensor_value()` is the hub port.  In this case, the colour sensor is connected to port "A".
+
+The second parameter is always 0.
+
+The third parameter appears to be the default to return when there is no value available.
+
+The fourth parameter of `(61,)` seems to refer to the colour sensor.
 
 For the colour sensor, the values returned are:
 
