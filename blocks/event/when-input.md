@@ -33,6 +33,6 @@ The third argument is "left" or "right" depending on the button to detect and th
 
 Scratch block:
 
-![when key pressed](https://raw.githubusercontent.com/markbush/mindstorms-51515/master/blocks/event/when-key pressed.png)
+![when key pressed](https://raw.githubusercontent.com/markbush/mindstorms-51515/master/blocks/event/when-key-pressed.png)
 
 The hub can detect when a key is pressed.  This block is only available in Scratch "streaming" mode and has no Python code associated with it.
