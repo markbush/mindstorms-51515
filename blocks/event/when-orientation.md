@@ -30,11 +30,11 @@ def setup(rpc, system, stop):
 
 To detect a particular orientation, the argument to `number_to_orientation()` should be as follows:
 
-arg | orientation
-====|:===========
-1   | front
-2   | back
-3   | top
-4   | bottom
-5   | left side
-6   | right side
+| arg | orientation |
+|----:|:------------|
+| 1   | front       |
+| 2   | back        |
+| 3   | top         |
+| 4   | bottom      |
+| 5   | left side   |
+| 6   | right side  |
