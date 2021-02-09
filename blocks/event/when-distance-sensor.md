@@ -31,7 +31,7 @@ def setup(rpc, system, stop):
     return vm
 ```
 
-The first argument to `get_sensor_value()` is the hub port.  In this case, the colour sensor is connected to port "E".
+The first argument to `get_sensor_value()` is the hub port.  In this case, the distance sensor is connected to port "E".
 
 The second parameter is always 0.
 
