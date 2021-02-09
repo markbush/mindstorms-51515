@@ -1,6 +1,6 @@
 # When a Button or Key Event Occurs
 
-### Detecting a hub button
+## Detecting a hub button
 
 Scratch block:
 
@@ -28,3 +28,11 @@ def setup(rpc, system, stop):
 Detecting a button is handled by the virtual machine's `register_on_button()` method.
 
 The third argument is "left" or "right" depending on the button to detect and the fourth argument is "pressed" or "released" according to the event that you wish to detect.
+
+## Detecting a key press
+
+Scratch block:
+
+![when key pressed](https://raw.githubusercontent.com/markbush/mindstorms-51515/master/blocks/event/when-key pressed.png)
+
+The hub can detect when a key is pressed.  This block is only available in Scratch "streaming" mode and has no Python code associated with it.
